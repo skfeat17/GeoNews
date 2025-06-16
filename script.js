@@ -77,7 +77,7 @@ async function fetchNews() {
 
     displayableNews.map((data) => {
         let card = document.createElement("div");
-        card.innerHTML = `<div class="card mt-1" style="width: 22rem;">
+        card.innerHTML = `<div class="card mt-1" style="width: 19rem;">
   <img src="${data.urlToImage}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">${data.title}</h5>
